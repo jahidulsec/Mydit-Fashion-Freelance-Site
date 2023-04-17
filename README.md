@@ -9,8 +9,8 @@ Consumers (may also be called buyers or clients) can register for an account for
 
 The Markers can create an account for free, update their Ateliers, find and bid for jobs, update the accepted job status, and provide delivery details for shipped items.
 
-##Tech
-###Front-end
+## Tech
+### Front-end
 Reactjs
 
 ## Run the Project
