@@ -21,4 +21,4 @@ yarn add infinite-react-carousel
 ```
 
 ### Site view
-![](https://github.com/jahidulsec/Mydit-Fashion-Freelance-Site/blob/main/Front-end/public/Website%20clip.webm)
+Website clips [Website Clips](https://github.com/jahidulsec/Mydit-Fashion-Freelance-Site/blob/main/Front-end/public/Website%20clip.webm)
