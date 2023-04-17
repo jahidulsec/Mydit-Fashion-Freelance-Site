@@ -1,7 +1,7 @@
 # Mydit-Fashion-Freelance-Site
 
 ## Description
-Meydit, is a double-sided online marketplace based in Sydney that brings together consumers looking for tailor-made clothes with thousands of independent tailors or makers, primarily those who do not have a shop.
+Mydit, is a double-sided online marketplace based in Sydney that brings together consumers looking for tailor-made clothes with thousands of independent tailors or makers, primarily those who do not have a shop.
 
 Thousands of skilled tailors and designers in Sydney alone are willing to take on gig-based work.
 
