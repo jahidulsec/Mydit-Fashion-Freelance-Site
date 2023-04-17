@@ -1,0 +1,40 @@
+.orders{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1100px;
+        padding: 50px 0;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        table{
+            width: 100%;
+            th{
+                text-align: center;
+            }
+            tr{
+                height: 50px;
+                td{
+                    text-align: center;
+                    .img{
+                        width: 50px;
+                        height: 25px;
+                        object-fit: cover;
+                    }
+
+                    .delete{
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                }
+
+                &:nth-child(even){
+                    background-color: #8962f212;
+                }
+            }
+        }
+    }
+}

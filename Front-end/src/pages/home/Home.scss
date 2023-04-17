@@ -1,0 +1,113 @@
+.home{
+    margin-top: -3rem;
+    .features{
+        background-color: rgb(245, 248, 255);
+        display: flex;
+        justify-content: center;
+        padding: 100px 0;
+
+        &.dark{
+            background-color: #0d084d;
+            color: white;
+
+            h1{
+                color: white !important;
+            }
+            p{
+                color: white !important;
+                margin-bottom: 20px !important;
+            }
+            .title{
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 14px !important;
+            }
+            img{
+                width: 100%;
+            }
+            button {
+                background-color: #9900ff;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: none;
+                font-size: 16px;
+                margin-top: 20px;
+                cursor: pointer;
+                width: max-content;
+            }
+        }
+        
+        .container{
+            width: 1100px;
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                &.first-child{
+                    flex: 2;
+                }
+
+                &.last-child{
+                    flex: 3;
+                }
+
+                h1{
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: gray;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+                }
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: gray;
+
+                    img{
+                        width: 20px;
+                        height: 20px;
+
+                    }
+                }
+                .fashionImg{
+                    width: 500px;
+                    border-radius: 30px;
+                }
+            }
+        }
+
+    }
+
+    .popular-project{
+        display: flex;
+        justify-content:center;
+        padding: 100px 0;
+    }
+
+    .projects{
+        background-color: rgb(245, 240, 240);
+        display: flex;
+        justify-content: center;
+        padding: 100px 0;
+        
+    }
+    .container{
+        
+        h1{
+            font-weight: 1200;
+            margin-bottom: 10px;
+        }
+    }
+}

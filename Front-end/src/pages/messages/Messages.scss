@@ -1,0 +1,51 @@
+.messages{
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 1100px;
+        padding: 50px 0;
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        table{
+            width: 100%;
+            th{
+                text-align: left;
+            }
+            tr{
+                height: 80px;
+                td{
+                    text-align: left;
+                    padding: 10px;
+
+                    &:first-child{
+                        font-weight: 500;
+                    }
+
+                    &:nth-child(2),
+                    &:nth-child(3){
+                        color: gray;
+
+                    }
+                }
+
+                button{
+                    background-color: #6409b0;
+                    color: white;
+                    font-weight: 500;
+                    border: none;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+
+                &.active{
+                    background-color: #8962f212;
+                }
+            }
+        }
+    }
+}
