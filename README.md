@@ -1,7 +1,7 @@
 # Mydit-Fashion-Freelance-Site
 
 ## Description
-Meydit, is a double-sided online marketplace based in Sydney that brings together consumers looking for tailor-made clothes with thousands of independent tailors or makers, primarily those who do not have a shop.
+**Myd.it**, is a double-sided online marketplace based in Sydney that brings together consumers looking for tailor-made clothes with thousands of independent tailors or makers, primarily those who do not have a shop.
 
 Thousands of skilled tailors and designers in Sydney alone are willing to take on gig-based work.
 
@@ -47,6 +47,17 @@ yarn add jsonwebtoken cookie-parser
 | `/api/gigs/:id` | seller | `DELETE` |
 | `/api/gigs/:id` | no role required | `GET` |
 | `/api/gigs/` | no role required | `GET` |
+
+## Task lists
+- [x] create react app
+- [x] create database using mongodb
+- [x] create express app
+- [x] designing models
+- [x] integrate user account endpoints
+- [x] integrate gigs endpoints  
+- [ ] integrate reviews endpoints
+- [ ] integrate client seller chatbox endpoints
+- [ ] integrate payment  
 
 ### Site view
 Website clips [Website Clips](https://github.com/jahidulsec/Mydit-Fashion-Freelance-Site/blob/main/Front-end/public/Website%20clip.webm)
