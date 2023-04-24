@@ -36,6 +36,17 @@ yarn add bcrypt
 yarn add jsonwebtoken cookie-parser
 ```
 ## API endpoints
+| Endpoints | Role | Methods |
+| --- | --- | --- |
+| `/api/auth/register` | no role required | `POST` |
+| `/api/auth/login` | no role required | `POST` |
+| `/api/auth/logout` | no role required | `POST` |
+| `/api/users/:id` | user | `DELETE` |
+| `/api/users/:id` | no role required | `GET` |
+| `/api/gigs/` | seller | `POST` |
+| `/api/gigs/:id` | seller | `DELETE` |
+| `/api/gigs/:id` | no role required | `GET` |
+| `/api/gigs/` | no role required | `GET` |
 
 ### Site view
 Website clips [Website Clips](https://github.com/jahidulsec/Mydit-Fashion-Freelance-Site/blob/main/Front-end/public/Website%20clip.webm)
