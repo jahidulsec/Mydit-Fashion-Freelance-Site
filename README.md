@@ -60,4 +60,4 @@ yarn add jsonwebtoken cookie-parser
 - [ ] integrate payment  
 
 ### Site view
-Website clips [Website Clips](https://github.com/jahidulsec/Mydit-Fashion-Freelance-Site/blob/main/Front-end/public/Website%20clip.webm)
+Website clips [Website] (https://mydit-ui-bdl7.vercel.app/)
